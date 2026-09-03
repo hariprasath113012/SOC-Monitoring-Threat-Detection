@@ -111,48 +111,57 @@ The screenshots below were captured while working through the lab.
 # 1. Wazuh Agent
 
 Shows the Windows endpoint connected to Wazuh.
+
 <img width="1920" height="1080" alt="01-windows-agent-active" src="https://github.com/user-attachments/assets/f8716159-7321-4d32-bec7-14c90706bd24" />
 
 # 2. Successful Logon — Event ID 4624
 
 Windows successful authentication telemetry collected by Wazuh.
+
 <img width="1920" height="1080" alt="02a-windows-event-4624" src="https://github.com/user-attachments/assets/67bbcd8e-001e-41d4-9155-a2eac6f0e797" />
 <img width="1920" height="1080" alt="02b-windows-event-4624" src="https://github.com/user-attachments/assets/b4862f74-c457-494e-8340-7564769c57ff" />
 
 # 3. Failed SMB Authentication — Event ID 4625
 
 Shows the failed authentication activity generated from the Kali test machine.
+
 <img width="1920" height="1080" alt="03-kali-to-windows" src="https://github.com/user-attachments/assets/2bd64de4-add3-40c0-9ba6-a03d4371c763" />
 
 # 4. Custom Brute-Force Rule
 
 Shows the custom Wazuh rule used to detect repeated failed logins.
+
 <img width="1920" height="1080" alt="04-custom-bruteforce-rule" src="https://github.com/user-attachments/assets/87eea71b-ff6e-4bd4-a06b-2c1568adf34c" />
 
 # 5. Windows Process Creation — Event ID 4688
 
 Process creation telemetry investigated through Wazuh.
+
 <img width="1920" height="1080" alt="05-event-4688-process-creation" src="https://github.com/user-attachments/assets/ffce117c-ca60-4a1e-b740-cbb7ad3264d0" />
 
 # 6. Sysmon Event ID 1
 
 Process execution details collected through Sysmon.
+
 <img width="1920" height="1080" alt="06a-sysmon-event-1-process-details" src="https://github.com/user-attachments/assets/47d23a84-08b3-4bf8-bc9d-7241ff27db69" />
 <img width="1920" height="1080" alt="06b-sysmon-event-1-event-details" src="https://github.com/user-attachments/assets/112ca582-160e-4726-b3e9-3f2aecb1804e" />
 
 # 7. Event ID 4625 Search Results
 
 Wazuh Threat Hunting showing 51 Event ID 4625 results.
+
 <img width="1920" height="1080" alt="07-event-4625-51-hits" src="https://github.com/user-attachments/assets/52ecdf5e-ad37-43bb-af58-493b23f0873f" />
 
 # 8. Event ID 4688 Search Results
 
 Wazuh Threat Hunting showing 541 Event ID 4688 results.
+
 <img width="1920" height="1080" alt="08-event-4688-541-hits" src="https://github.com/user-attachments/assets/d1ad7bb8-37d1-4b6c-ae05-7d920abc985b" />
 
 # 9. Sysmon Search Results
 
 Wazuh Threat Hunting showing 24 Sysmon results.
+
 <img width="1920" height="1080" alt="09-sysmon-process-events-count" src="https://github.com/user-attachments/assets/4162f300-f777-4df1-93c0-2599d42b3f83" />
 
 ## Incident Reports
