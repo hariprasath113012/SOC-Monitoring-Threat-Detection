@@ -10,7 +10,7 @@ The main goal of this project was to get practical experience with the basic SOC
 
 **Detect → Triage → Investigate → Document**
 
-##The lab includes:
+## The lab includes:
 
 - Wazuh SIEM
 - Windows 10 endpoint
@@ -22,7 +22,6 @@ The main goal of this project was to get practical experience with the basic SOC
 
 ## Lab Setup
 
-```text
                     Wazuh Server
                    SIEM / Analysis
                          |
@@ -88,7 +87,7 @@ Command: net1 user
 
 This activity was mapped to:
 
-MITRE ATT&CK T1087 — Account Discovery
+## MITRE ATT&CK T1087 — Account Discovery
 
 The activity was generated and investigated inside my controlled lab environment.
 
