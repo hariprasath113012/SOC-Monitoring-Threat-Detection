@@ -222,7 +222,12 @@ rules/local_rules.xml
 
 ## Repository Structure
 
+## Repository Structure
+
+
 SOC-Monitoring-Threat-Detection/
+│
+├── README.md
 │
 ├── investigations/
 │   ├── incident-001-brute-force.md
@@ -240,10 +245,8 @@ SOC-Monitoring-Threat-Detection/
 │   ├── 08-event-4688-541-hits.png
 │   └── 09-sysmon-process-events-count.png
 │
-├── rules/
-│   └── local_rules.xml
-│
-└── README.md
+└── rules/
+    └── local_rules.xml
 
 ## Skills Practiced
 
