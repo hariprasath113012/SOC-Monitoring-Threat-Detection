@@ -222,7 +222,7 @@ rules/local_rules.xml
 
 ## Repository Structure
 
-```text
+```
 SOC-Monitoring-Threat-Detection/
 │
 ├── README.md
