@@ -222,9 +222,6 @@ rules/local_rules.xml
 
 ## Repository Structure
 
-## Repository Structure
-## Repository Structure
-
 ```text
 SOC-Monitoring-Threat-Detection/
 │
