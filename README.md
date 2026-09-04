@@ -1,6 +1,6 @@
-## SOC Monitoring & Threat Detection Home Lab
+## SOC Monitoring & Threat Detection  Lab
 
-A hands-on SOC Analyst L1 home lab built to practice how security events are collected, detected, investigated, and documented using Wazuh.
+A hands-on SOC Analyst L1  lab built to practice how security events are collected, detected, investigated, and documented using Wazuh.
 
 I used a Windows 10 machine as the monitored endpoint and Kali Linux to generate controlled security activity. Wazuh was used to collect and investigate the resulting Windows security logs and Sysmon events.
 
