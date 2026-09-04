@@ -246,8 +246,7 @@ SOC-Monitoring-Threat-Detection/
 └── rules/
     └── local_rules.xml
 
-## Skills Practiced
-
+ SKILLS PRACTICED
 Wazuh SIEM monitoring
 
 Windows Event Log analysis
@@ -271,7 +270,7 @@ IOC identification
 SOC L1 incident documentation
 
 
-## Notes
+NOTES
 
 This project was built as a personal home lab to practice SOC Analyst L1 tasks. The attack activity was generated only against my own lab systems.
 
